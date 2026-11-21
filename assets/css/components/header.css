@@ -1,0 +1,59 @@
+.site-header {
+  position: sticky;
+  z-index: 30;
+  top: 0;
+  border-bottom: 1px solid rgba(255,255,255,.085);
+  background: rgba(9, 11, 10, .77);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  backdrop-filter: blur(10px) saturate(120%);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100% - 2 * var(--gutter), var(--content));
+  min-height: 62px;
+  margin-inline: auto;
+  gap: 20px;
+}
+.brand { display: inline-flex; align-items: center; gap: 10px; font: 600 15px/1 "Space Grotesk", sans-serif; letter-spacing: -.035em; white-space: nowrap; }
+.brand b { color: var(--gold); font-weight: 400; }
+.brand-mark { display: flex; align-items: center; gap: 3px; height: 22px; }
+.brand-mark i { display: block; width: 5px; border-radius: 5px; background: var(--gold); box-shadow: 0 0 14px rgba(211,170,112,.28); }
+.brand-mark i:first-child { height: 12px; }
+.brand-mark i:last-child { height: 20px; background: var(--olive); }
+.desktop-nav { display: none; }
+.header-cta { display: none; }
+.menu-toggle {
+  display: grid;
+  place-content: center;
+  gap: 5px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--edge);
+  border-radius: 50%;
+  background: rgba(255,255,255,.035);
+  cursor: pointer;
+  transition: background 360ms var(--ease), border-color 360ms var(--ease), box-shadow 360ms var(--ease);
+}
+.menu-toggle span { display: block; width: 14px; height: 1px; border-radius: 2px; background: var(--cream); transition: transform 320ms var(--ease); }
+.menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(3px) rotate(45deg); }
+.menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-3px) rotate(-45deg); }
+.mobile-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: var(--gutter);
+  right: var(--gutter);
+  padding: 8px 18px;
+  border: 1px solid var(--edge);
+  border-radius: 18px;
+  background: rgba(15, 18, 16, .94);
+  box-shadow: 0 20px 60px rgba(0,0,0,.38), inset 0 1px rgba(255,255,255,.05);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+.mobile-menu[hidden] { display: none; }
+.mobile-menu:not([hidden]) { animation: menu-in 240ms var(--ease) both; }
+.mobile-menu a { display: flex; align-items: center; justify-content: space-between; min-height: 50px; border-bottom: 1px solid rgba(255,255,255,.08); font-size: 13px; }
+.mobile-menu a:last-child { border-bottom: 0; }
+.mobile-menu a span { color: var(--gold); font: 11px "Space Grotesk", sans-serif; }

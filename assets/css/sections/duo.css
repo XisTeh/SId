@@ -1,0 +1,15 @@
+.duo-section { display: grid; gap: 17px; padding-top: 25px; }
+.duo-photo { position: relative; height: clamp(250px, 68vw, 360px); overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 19px; background: #171b18; isolation: isolate; }
+.duo-photo::after { position: absolute; inset: 35% 0 0; z-index: 1; content: ""; background: linear-gradient(transparent, rgba(8,10,9,.67)); pointer-events: none; }
+.duo-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; transition: transform 600ms var(--ease); }
+.photo-caption { position: absolute; z-index: 2; bottom: 13px; left: 14px; color: #f0ebdf; font: 9px "Space Grotesk", sans-serif; letter-spacing: .16em; }
+.duo-copy { padding: 1px 2px 0; text-align: center; }
+.duo-copy h2 { max-width: 12ch; margin-top: 12px; font-size: clamp(31px, 9vw, 40px); }
+.duo-copy h2 { margin-inline: auto; }
+.duo-copy > p:not(.eyebrow) { max-width: 42ch; margin: 11px auto 0; color: #b8b8b0; font-size: 12px; line-height: 1.6; }
+.social-links { margin-top: 15px; border-top: 1px solid rgba(255,255,255,.1); }
+.social-links a { display: grid; grid-template-columns: 30px 1fr auto; align-items: center; gap: 11px; min-height: 54px; padding: 0 10px; border-bottom: 1px solid rgba(255,255,255,.1); font-size: 10px; transition: color 300ms var(--ease), padding 300ms var(--ease), border-color 300ms var(--ease), background 300ms var(--ease); }
+.social-icon { width: 28px; height: 28px; padding: 6px; overflow: visible; border: 1px solid rgba(211,170,112,.2); border-radius: 9px; fill: none; stroke: var(--gold); stroke-width: 1.5; transition: background 300ms var(--ease), border-color 300ms var(--ease); }
+.social-icon-dot { fill: var(--gold); stroke: none; }
+.social-links a span { color: #a3a39b; }
+.social-links a b { color: var(--cream); font-size: 10px; font-weight: 500; }

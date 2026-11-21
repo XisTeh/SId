@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.pages-check/
+.taste-skill/
+public/
+/index.html
+
+# Design-skill reference library; the website uses the scoped folders below.
+/assets/backgrounds/
+/assets/components/
+/assets/diagrams/
+/assets/effects/
+/assets/layout/
+/assets/moments/
+/assets/motion/
+/assets/objects/
+/assets/photos/
+/assets/scenes/
+/assets/ui/
+/assets/starter.html
+/assets/system.css
+/assets/system.js
+
+__pycache__/
+*.pyc

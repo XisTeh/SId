@@ -1,0 +1,466 @@
+{
+  "created_at": "2026-11-12T12:42:52.495603-03:00",
+  "source_folder": "Sidney e Raabe",
+  "output_folder": "assets/images/media",
+  "originals_preserved": true,
+  "photos": {
+    "count": 22,
+    "quality": 95,
+    "max_side_px": 8000
+  },
+  "videos": {
+    "count": 7,
+    "codec": "VP9 + Opus",
+    "crf": 30,
+    "target_percent": 0.9,
+    "audio_bitrate_kbps": 96
+  },
+  "source_media_bytes": 556416450,
+  "converted_primary_media_bytes": 224104860,
+  "reduction_percent": 59.72,
+  "files": [
+    {
+      "kind": "photo",
+      "source": "AGN00713-Editar.jpg",
+      "output": "AGN00713-Editar.webp",
+      "source_bytes": 15886266,
+      "output_bytes": 3744076,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00720-Editar.jpg",
+      "output": "AGN00720-Editar.webp",
+      "source_bytes": 15614932,
+      "output_bytes": 3497002,
+      "source_pixels": [
+        4666,
+        6995
+      ],
+      "output_pixels": [
+        4666,
+        6995
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00774-Editar.jpg",
+      "output": "AGN00774-Editar.webp",
+      "source_bytes": 14710962,
+      "output_bytes": 3519760,
+      "source_pixels": [
+        4432,
+        6644
+      ],
+      "output_pixels": [
+        4432,
+        6644
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00783-Editar copiar.jpg",
+      "output": "AGN00783-Editar copiar.webp",
+      "source_bytes": 18435517,
+      "output_bytes": 3303300,
+      "source_pixels": [
+        5304,
+        7952
+      ],
+      "output_pixels": [
+        5304,
+        7952
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00834-Editar.jpg",
+      "output": "AGN00834-Editar.webp",
+      "source_bytes": 15251616,
+      "output_bytes": 2809970,
+      "source_pixels": [
+        4826,
+        7235
+      ],
+      "output_pixels": [
+        4826,
+        7235
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00836-Editar.jpg",
+      "output": "AGN00836-Editar.webp",
+      "source_bytes": 24372074,
+      "output_bytes": 6300096,
+      "source_pixels": [
+        5304,
+        7952
+      ],
+      "output_pixels": [
+        5304,
+        7952
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00837-Editar copiar.jpg",
+      "output": "AGN00837-Editar copiar.webp",
+      "source_bytes": 16974850,
+      "output_bytes": 3598028,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00840-Editar.jpg",
+      "output": "AGN00840-Editar.webp",
+      "source_bytes": 18454923,
+      "output_bytes": 4268540,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00844-Editar.jpg",
+      "output": "AGN00844-Editar.webp",
+      "source_bytes": 21707999,
+      "output_bytes": 5589088,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00846-Editar.jpg",
+      "output": "AGN00846-Editar.webp",
+      "source_bytes": 22774859,
+      "output_bytes": 5832960,
+      "source_pixels": [
+        5079,
+        7615
+      ],
+      "output_pixels": [
+        5079,
+        7615
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00850-Editar.jpg",
+      "output": "AGN00850-Editar.webp",
+      "source_bytes": 24227005,
+      "output_bytes": 6868704,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00852-Editar.jpg",
+      "output": "AGN00852-Editar.webp",
+      "source_bytes": 24408331,
+      "output_bytes": 6926166,
+      "source_pixels": [
+        4741,
+        7108
+      ],
+      "output_pixels": [
+        4741,
+        7108
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00853-Editar.jpg",
+      "output": "AGN00853-Editar.webp",
+      "source_bytes": 24788440,
+      "output_bytes": 7164546,
+      "source_pixels": [
+        4797,
+        7192
+      ],
+      "output_pixels": [
+        4797,
+        7192
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00867-Editar.jpg",
+      "output": "AGN00867-Editar.webp",
+      "source_bytes": 13478776,
+      "output_bytes": 2584108,
+      "source_pixels": [
+        4666,
+        6995
+      ],
+      "output_pixels": [
+        4666,
+        6995
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00868-Editar.jpg",
+      "output": "AGN00868-Editar.webp",
+      "source_bytes": 13931279,
+      "output_bytes": 2227154,
+      "source_pixels": [
+        4966,
+        7445
+      ],
+      "output_pixels": [
+        4966,
+        7445
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00879-Editar.jpg",
+      "output": "AGN00879-Editar.webp",
+      "source_bytes": 16667576,
+      "output_bytes": 3996956,
+      "source_pixels": [
+        4834,
+        7248
+      ],
+      "output_pixels": [
+        4834,
+        7248
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00880-Editar.jpg",
+      "output": "AGN00880-Editar.webp",
+      "source_bytes": 15213202,
+      "output_bytes": 3197106,
+      "source_pixels": [
+        4834,
+        7248
+      ],
+      "output_pixels": [
+        4834,
+        7248
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00919-Editar.jpg",
+      "output": "AGN00919-Editar.webp",
+      "source_bytes": 19893546,
+      "output_bytes": 8177116,
+      "source_pixels": [
+        4590,
+        6882
+      ],
+      "output_pixels": [
+        4590,
+        6882
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00947-Editar.jpg",
+      "output": "AGN00947-Editar.webp",
+      "source_bytes": 21135398,
+      "output_bytes": 8283346,
+      "source_pixels": [
+        4853,
+        7276
+      ],
+      "output_pixels": [
+        4853,
+        7276
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00948-Editar.jpg",
+      "output": "AGN00948-Editar.webp",
+      "source_bytes": 20126692,
+      "output_bytes": 7249518,
+      "source_pixels": [
+        4985,
+        7473
+      ],
+      "output_pixels": [
+        4985,
+        7473
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00967-Editar.jpg",
+      "output": "AGN00967-Editar.webp",
+      "source_bytes": 15971879,
+      "output_bytes": 5524924,
+      "source_pixels": [
+        4590,
+        6882
+      ],
+      "output_pixels": [
+        4590,
+        6882
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "photo",
+      "source": "AGN00968-Editar.jpg",
+      "output": "AGN00968-Editar.webp",
+      "source_bytes": 22524705,
+      "output_bytes": 7581966,
+      "source_pixels": [
+        5304,
+        7952
+      ],
+      "output_pixels": [
+        5304,
+        7952
+      ],
+      "encoding": "WebP quality 95, max side 8000px"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQM0iqvtVfgGxKiqJtt3mfjrxF6PMV0Xx4GM6UqBWu7IpGH1tM1wQkria323OPntbXMim1A7UUwYvB-wFDlJCd_dqADCkvykvFDSJgs.mp4",
+      "output": "forro-clip-01.webm",
+      "poster": "forro-clip-01-poster.webp",
+      "thumbnail": "forro-clip-01-thumbnail.webp",
+      "duration_seconds": 89.47,
+      "source_bytes": 20024244,
+      "output_bytes": 15818117,
+      "poster_bytes": 85860,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQMtaHXeVB4aLpZ6211YlHlP2EGZibzyHcezIBmxPiyZZ76diXc1z0a5BIsxRCCYVIUpsISh6cOHUPsPlUD5yujC_pcV6qtlibLq5ao.mp4",
+      "output": "forro-clip-02.webm",
+      "poster": "forro-clip-02-poster.webp",
+      "thumbnail": "forro-clip-02-thumbnail.webp",
+      "duration_seconds": 42.51,
+      "source_bytes": 14580133,
+      "output_bytes": 10207560,
+      "poster_bytes": 39314,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQNKnGJoz9cO5wKjOdWW9BxzWdDihYOrtOXv27OEbGecTqC5G91LVcWvnsRnL0UFenN-yVmwErSP_jZE5h0tbqSbBJ2LDYafxCONWgo.mp4",
+      "output": "forro-clip-03.webm",
+      "poster": "forro-clip-03-poster.webp",
+      "thumbnail": "forro-clip-03-thumbnail.webp",
+      "duration_seconds": 56.21,
+      "source_bytes": 22343470,
+      "output_bytes": 16109281,
+      "poster_bytes": 92452,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQNOIzNOEuoaBnivcKD3Jxu_O8xOwBahc91HLzj5kHQ11EpT-hWqFLE6jMx6FQ2EtEbyBgAOesHEVVJhgDbOl1WJHrn3Y2-K-FLuJnw.mp4",
+      "output": "forro-clip-04.webm",
+      "poster": "forro-clip-04-poster.webp",
+      "thumbnail": "forro-clip-04-thumbnail.webp",
+      "duration_seconds": 58.42,
+      "source_bytes": 15689264,
+      "output_bytes": 14361479,
+      "poster_bytes": 105128,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQO-cLSH9AggLHGGYgdYtOL8Avy1OMVgYYaZlUM3fZlA3uhlvnnbhx_S-dJoiWanYT9YTejrw6xGRZTUX6ZDjh2_Lc_btzZZ6ElY05s.mp4",
+      "output": "forro-clip-05.webm",
+      "poster": "forro-clip-05-poster.webp",
+      "thumbnail": "forro-clip-05-thumbnail.webp",
+      "duration_seconds": 66.71,
+      "source_bytes": 15128203,
+      "output_bytes": 11771478,
+      "poster_bytes": 71414,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQO84DbPJnvFJJKi1EHvSTIEkzvYvjfiOjARz-iPCUnaTBCfnCH1Wneo51NtT0_ZNQyXEUXN_RLQUzDvroHMakNHIMnLQwlyOwKYxO4.mp4",
+      "output": "forro-clip-06.webm",
+      "poster": "forro-clip-06-poster.webp",
+      "thumbnail": "forro-clip-06-thumbnail.webp",
+      "duration_seconds": 54.33,
+      "source_bytes": 17812793,
+      "output_bytes": 15434048,
+      "poster_bytes": 110222,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    },
+    {
+      "kind": "video",
+      "source": "SaveVid.Net_AQP1X2wUYNou_5exaChgn5dhX3QYopZRbUmc-IJs8Klupg9fK3OJQOOXKml8kXZEhar7ZIgfQ6uR6FXXJ-ODq7zEwAjj-fCF5cClMY0.mp4",
+      "output": "forro-clip-07.webm",
+      "poster": "forro-clip-07-poster.webp",
+      "thumbnail": "forro-clip-07-thumbnail.webp",
+      "duration_seconds": 150.37,
+      "source_bytes": 34287516,
+      "output_bytes": 28158467,
+      "poster_bytes": 64488,
+      "video_encoding": "VP9 CRF 30, target 90% of source average bitrate, maxrate 125% of target",
+      "audio_encoding": "Opus 96 kb/s; all source audio streams retained when present"
+    }
+  ]
+}

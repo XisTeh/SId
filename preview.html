@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0f0e">
+  <title>Prévia mobile — Sidney e Raabe</title>
+  <link rel="stylesheet" href="assets/css/preview.css">
+</head>
+<body>
+  <header class="preview-header">
+    <a class="preview-brand" href="index.html" aria-label="Sidney e Raabe — abrir o site"><span class="brand-mark"><i></i><i></i></span><span>Sidney <b>&</b> Raabe</span></a>
+    <span class="preview-label">PRÉVIA RESPONSIVA</span>
+    <a class="open-site" href="index.html" target="_blank" rel="noopener">Abrir o site ↗</a>
+  </header>
+  <main class="preview-layout">
+    <section class="preview-tools" aria-labelledby="preview-title">
+      <p class="eyebrow">VISUALIZAÇÃO MOBILE</p>
+      <h1 id="preview-title">Veja em <em>vários tamanhos.</em></h1>
+      <p class="preview-description">Escolha uma tela para conferir o site como se estivesse em um celular. Você também pode rolar, tocar nos vídeos e testar os botões dentro da prévia.</p>
+      <fieldset class="device-options">
+        <legend>TAMANHO DA TELA</legend>
+        <button type="button" class="device-choice" data-device="compact" aria-pressed="false"><span>Compacto</span><b>320 × 568</b></button>
+        <button type="button" class="device-choice" data-device="regular" aria-pressed="false"><span>Android</span><b>360 × 800</b></button>
+        <button type="button" class="device-choice is-active" data-device="iphone" aria-pressed="true"><span>iPhone</span><b>393 × 852</b></button>
+        <button type="button" class="device-choice" data-device="large" aria-pressed="false"><span>Tela grande</span><b>430 × 932</b></button>
+      </fieldset>
+      <nav class="preview-jumps" aria-label="Pular para uma parte do site">
+        <span>VER NO CELULAR</span>
+        <button type="button" data-preview-section="inicio">Abertura</button>
+        <button type="button" data-preview-section="videos">Fotos e vídeos</button>
+      </nav>
+      <div class="preview-note"><p>Vídeos e fotos passam em sentidos opostos.</p></div>
+    </section>
+    <section class="device-stage" aria-label="Simulação do celular">
+      <div class="stage-glow" aria-hidden="true"></div>
+      <div class="device-space">
+        <div class="device-frame">
+          <div class="device-screen">
+            <iframe id="site-preview" src="index.html" title="Prévia mobile do site de Sidney e Raabe"></iframe>
+            <div class="device-island" aria-hidden="true"></div>
+            <div class="device-status" aria-hidden="true"><span>9:41</span><span>●●● ▰</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="device-caption" aria-live="polite">iPhone · 393 × 852 px</p>
+    </section>
+  </main>
+  <script src="assets/js/preview.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+.hero-copy > *, .hero-film { animation: arrive 650ms var(--ease) backwards; }
+.hero-copy .eyebrow { animation-delay: 170ms; }
+.hero-copy h1 { animation-delay: 230ms; }
+.hero-copy .hero-lead { animation-delay: 300ms; }
+.hero-copy .hero-actions { animation-delay: 360ms; }
+.hero-film { animation-delay: 0ms; }
+[data-reveal] { opacity: 1; transform: none; }
+@keyframes arrive { from { opacity: 0; transform: translateY(13px); filter: blur(4px); } to { opacity: 1; transform: none; filter: blur(0); } }
+@keyframes menu-in { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: none; } }
+@keyframes light-drift { from { opacity: .72; transform: translateX(-50%) scale(.97); } to { opacity: 1; transform: translateX(-50%) scale(1.04); } }
+@keyframes floor-pulse { from { opacity: .55; } to { opacity: .76; } }
+@keyframes beam-sway-left { from { transform: rotate(-7deg); opacity: .075; } to { transform: rotate(5deg); opacity: .14; } }
+@keyframes beam-sway-right { from { transform: rotate(6deg); opacity: .065; } to { transform: rotate(-5deg); opacity: .12; } }
+@keyframes beat-breathe { 0%,100% { opacity: .34; scale: .97; } 50% { opacity: .56; scale: 1.02; } }
+
+@media (hover: hover) and (pointer: fine) {
+  .price-card:hover { transform: translateY(-3px); border-color: var(--edge-hot); box-shadow: 0 18px 40px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.18); }
+  .button:hover { transform: translateY(-3px) scale(1.018); filter: brightness(1.06); box-shadow: 0 13px 34px rgba(173,129,68,.32), inset 0 1px rgba(255,255,255,.72); }
+  .button:hover::after { transform: translateX(125%); }
+  .button:hover span, .price-link:hover span { transform: translate(3px,-2px); }
+  .text-link { transition: color 360ms var(--ease); }
+  .text-link:hover { color: white; }
+  .text-link:hover span { transform: translateY(3px); }
+  .menu-toggle { transition: border-color 360ms var(--ease), background 360ms var(--ease), box-shadow 360ms var(--ease); }
+  .menu-toggle:hover { border-color: var(--edge-hot); background: rgba(211,170,112,.11); box-shadow: 0 0 22px rgba(211,170,112,.13); }
+  .social-links a:hover { padding-inline: 13px; border-color: var(--edge-hot); background: rgba(211,170,112,.045); color: var(--gold); }
+  .social-links a:hover .social-icon { border-color: var(--edge-hot); background: rgba(211,170,112,.09); }
+  .duo-photo:hover img { transform: scale(1.035); }
+  .hero-film:hover { transform: translateY(-4px); border-color: rgba(211,170,112,.52); box-shadow: 0 32px 70px rgba(0,0,0,.44),0 0 40px rgba(211,170,112,.13),inset 0 1px rgba(255,255,255,.2); }
+  .gallery-card:hover { transform: translateY(-4px); border-color: rgba(211,170,112,.48); box-shadow: 0 20px 38px rgba(0,0,0,.32), 0 0 20px rgba(211,170,112,.08); }
+  .gallery-card--photo:hover img { transform: scale(1.045); filter: brightness(1.08) saturate(1.04); }
+  .gallery-card--video:hover video { filter: brightness(1.06) saturate(1.04); transition: filter 520ms var(--ease); }
+  .header-cta:hover span { transform: translate(3px,-2px); }
+  .lightbox-close:hover { transform: rotate(90deg); border-color: var(--edge-hot); background: rgba(211,170,112,.13); }
+}
+.button:active { transform: scale(.985); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
